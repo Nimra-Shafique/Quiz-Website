@@ -1,0 +1,87 @@
+
+ * { margin: 0;
+     padding: 0;
+      box-sizing: border-box;
+      
+    }
+     html { font-size: 62.5%; }
+      body {
+         height: 100vh;
+          display: grid; 
+          place-items: center;
+            background-image: url("bg-img.jpg")
+         } 
+         .quiz-section {
+             width: 50%;
+             height: auto; 
+             background-color: #fff; 
+             border-radius: 0.5rem;
+             box-shadow: rgba(193, 191, 191, 0.2) 0px 2px 8px 0px;
+         }
+         #question {
+            font-size: 4rem;
+            padding:4rem 5rem;
+         }
+         ul{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 2rem;
+            padding: 4rem 5rem;
+         }
+         li{
+            list-style: none;
+            width:100;
+            min-height: 7rem;
+            border-radius: 7rem;
+            border: 0.2rem solid rgb(224, 224, 224);
+            padding: 0 7rem 0 3rem;
+            font-size:1.3rem;
+            font-weight: bold;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+         }
+         label{
+            padding-left: 1rem;
+         }
+         input[type="radio"]{
+            width: 20px;
+            height: 20px;
+         }
+         input[type="radio"]:checked{
+            background-color: #8ec5fc;
+            border-color: #8ec5fc;
+         }
+         .btn{
+            padding: 2rem 5rem;
+         }
+         button{
+            padding: 0 5rem;
+            height: 5rem;
+            border-radius: 5rem;
+            background-color: #3466ee;
+            border:none;
+            color:#fff;
+            font-size:1.6rem;
+         }
+         .result{
+            width: 100%;
+            height: auto;
+            padding: 5rem;
+            background-color: #fff;
+            border-radius: 0.5rem;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            display: flex;
+            flex-direction: column;
+            gap:2.4rem;
+            align-items: center;
+         }
+         .result h2,
+         .score{
+            font-size:3.4rem;
+         }
+         .result p{
+            font-size: 2rem;
+         }
+            
